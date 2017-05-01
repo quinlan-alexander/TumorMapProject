@@ -3,7 +3,7 @@
 """
 Created on Fri Mar 31 21:32:03 2017
 
-@author: quinlanalexander
+@author: quinlan.alexander@gmail.com
 """
 
 import pandas as pd
@@ -21,4 +21,4 @@ if not os.path.isfile(dataFile):
 brca = pd.read_table(dataFile)
 
 print 'brca data frame contains {} rows.'.format(brca['sample'].count())
-brca
+
